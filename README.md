@@ -90,11 +90,12 @@ See [scope and provenance](Docs/PROVENANCE.md).
    then your usual wireless functions. To roll back, restore your known-good
    EFI/entry; this project does not automate system configuration changes.
 
-Normal operation needs none of `-brcmvtd`, `-brcmvtdrx`, `-brcmvtdtxchain`,
-`-brcmvtdprivatetx300` or `-brcmvtdnotxcleanup`. **This does not remove boot
+BroadcomVTD requires no boot arguments for normal operation. The optional
+`-brcmvtdoff` boot argument disables the plugin. **This does not remove boot
 arguments required by other components**, including your root-patch setup.
-The validated configuration keeps `DisableIoMapper=false`; the plugin never
-parses or edits OpenCore's configuration to select its mode.
+The validated configuration uses `DisableIoMapper=false`; BroadcomVTD does
+not parse or modify OpenCore's configuration and selects its runtime mode
+from the actual mapper identity.
 
 ### Automatic modes
 
