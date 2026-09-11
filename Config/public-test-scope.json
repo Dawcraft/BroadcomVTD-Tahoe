@@ -1,0 +1,11 @@
+{
+  "omitted_internal_capture_tests": [
+    "test_poc_disposition.py::test_complete_runtime27_28_replay",
+    "test_poc_first_failure.py::test_runtime13_initiator_overwritten_not_absent",
+    "test_poc_pressure.py::test_immutable_runtime10_golden_chain_accounting",
+    "test_poc_pressure.py::test_runtime16_keeps_historical_capacity_halt",
+    "test_poc_qualification.py::test_runtime24_25_26_historical_decode_exactly_unchanged",
+    "test_poc_quiescence.py::test_complete_parent_captures_unchanged"
+  ],
+  "reason": "Private historical traces are not redistributed. These tests are absent from the public suite, not silently skipped. Actual-source host lifetime models and synthetic decoder tests remain."
+}

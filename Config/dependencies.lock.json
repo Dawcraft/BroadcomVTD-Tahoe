@@ -1,0 +1,13 @@
+{
+  "Lilu": {
+    "version": "1.7.2",
+    "commit": "e4748cc081bf060302c7d3c44a643ce1d11b7e1d",
+    "url": "https://codeload.github.com/acidanthera/Lilu/tar.gz/e4748cc081bf060302c7d3c44a643ce1d11b7e1d",
+    "sha256": "62c40578dc3eac1b39f1def5ecc0e1f81caa425034cfa061723e57c648dace85"
+  },
+  "MacKernelSDK": {
+    "commit": "05094e5e88cec7caedbfb35e8449ed0db94bf95b",
+    "url": "https://codeload.github.com/acidanthera/MacKernelSDK/tar.gz/05094e5e88cec7caedbfb35e8449ed0db94bf95b",
+    "sha256": "c208d230b62c9c4a88d101b09da2523da47dc387b73c17dd1dcd50057e7cc101"
+  }
+}
