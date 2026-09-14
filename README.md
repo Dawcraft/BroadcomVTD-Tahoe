@@ -207,6 +207,8 @@ tested AWDL/Continuity functions including Continuity Camera, and Personal
 Hotspot passed the reported controlled campaign. Bidirectional functions were
 tested bidirectionally where applicable.
 
+**AirPlay / Screen Mirroring:** On some Tahoe systems, these features may also depend on SMBIOS, graphics configuration and framework-level feature gating rather than the Broadcom Wi-Fi / AppleVTD path alone. If Wi-Fi/AWDL is otherwise working, see [FeatureUnlock-Tahoe](https://github.com/kgp-macPro/FeatureUnlock-Tahoe). It is a separate project, not a requirement for Broadcom Wi-Fi; feature unavailability alone does not establish a Broadcom Wi-Fi/AWDL or AppleVTD failure.
+
 **Ethernet was disabled during Wi-Fi and Personal Hotspot validation.** Those
 passes were not silently carried by the X550 Ethernet interfaces.
 
@@ -284,19 +286,19 @@ release, even if a local rebuild happens to produce identical bytes.
 
 ## Credits
 
-- **KGP:** project concept/direction, system integration, hardware experimentation,
+- **[KGP / kgp-macPro](https://github.com/kgp-macPro):** project concept/direction, system integration, hardware experimentation,
   physical validation, release maintenance and documentation.
 - **OpenAI ChatGPT:** research and architecture collaboration, evidence analysis,
   test strategy, independent source review and technical documentation.
 - **OpenAI Codex CLI:** source implementation, local binary/source analysis,
   build/validation tooling and evidence/report generation, under KGP direction
   and independent ChatGPT review.
-- **Mieze / IntelLucy:** important architectural prior art, especially Tahoe
+- **[Mieze](https://github.com/Mieze) / [IntelLucy](https://github.com/Mieze/IntelLucy):** important architectural prior art, especially Tahoe
   AppleVTD DMA and mapper-aware packet-lifetime work. BroadcomVTD is an independent
   AirPortBrcmNIC implementation with a different final private-TX-backing
   architecture—not an IntelLucy source derivative or a co-developed project.
-- **Acidanthera:** Lilu framework and MacKernelSDK build infrastructure.
-- **OpenCore Legacy Patcher developers:** the Modern Wireless environment used
+- **[Acidanthera](https://github.com/acidanthera):** Lilu framework and MacKernelSDK build infrastructure.
+- **[OpenCore Legacy Patcher developers](https://github.com/dortania/OpenCore-Legacy-Patcher):** the Modern Wireless environment used
   to restore legacy Broadcom Wi-Fi under Tahoe. BroadcomVTD is independent of OCLP.
 
 BSD-3-Clause for independent project contributions; dependency notices are in
